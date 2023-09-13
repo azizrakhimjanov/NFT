@@ -1,0 +1,15 @@
+@font-face {
+    font-family: work sans;
+    src: url(/assets/fonts/WorkSans-Bold.ttf);
+    src: url(/assets/fonts/WorkSans-ExtraBold.ttf);
+}
+@font-face {
+    font-family: space-mono;
+    src: url(/assets/fonts/SpaceMono-Bold.ttf);
+}
+nav a{
+    font-family: 'work sans';
+}
+nav input[type="checkbox"]:checked ~ div ul{
+    right: 0;
+}
