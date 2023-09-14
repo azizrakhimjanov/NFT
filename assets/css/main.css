@@ -1,13 +1,19 @@
-@font-face {
-    font-family: work sans;
-    src: url(/assets/fonts/WorkSans-Bold.ttf);
-    src: url(/assets/fonts/WorkSans-ExtraBold.ttf);
-}
-@font-face {
-    font-family: space-mono;
-    src: url(/assets/fonts/SpaceMono-Bold.ttf);
-}
+@import url(/mine.css);
 nav a{
+    font-family: 'work sans';
+}
+footer h1{
+    font-family: 'work sans';
+    font-weight: 400;
+}
+footer h2{
+    font-family: space-mono;
+}
+footer input{
+    font-family: 'work sans';
+    font-weight: 600;
+}
+footer ul a{
     font-family: 'work sans';
 }
 nav input[type="checkbox"]:checked ~ div ul{
