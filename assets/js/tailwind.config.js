@@ -12,6 +12,9 @@ tailwind.config = {
           'xs':'475px',
           // => @media (min-width: 450px) { ... }
         },
+        fontFamily: {
+          body: ['Work sans']
+        }
       }
     }
   }
