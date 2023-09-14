@@ -1,0 +1,28 @@
+@font-face {
+    font-family: work sans;
+    src: url(/assets/fonts/WorkSans-Bold.ttf);
+}
+@font-face {
+    font-family: 'work sans';
+    src: url(/assets/fonts/WorkSans-ExtraBold.ttf);
+}
+@font-face {
+    font-family: 'work sans';
+    src: url(/assets/fonts/WorkSans-ExtraLight.ttf);
+}
+@font-face {
+    font-family: 'work sans';
+    src: url(/assets/fonts/WorkSans-Light.ttf);
+}
+@font-face {
+    font-family: 'work sans';
+    src: url(/assets/fonts/WorkSans-Medium.ttf);
+}
+@font-face {
+    font-family: 'work sans';
+    src: url(/assets/fonts/WorkSans-Regular.ttf);
+}
+@font-face {
+    font-family: space-mono;
+    src: url(/assets/fonts/SpaceMono-Bold.ttf);
+}

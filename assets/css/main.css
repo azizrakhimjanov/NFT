@@ -1,15 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
-
 @font-face {
     font-family: work sans;
     src: url(/assets/fonts/WorkSans-Bold.ttf);
     src: url(/assets/fonts/WorkSans-ExtraBold.ttf);
 }
-@font-face {
+footer h2{
     font-family: space-mono;
-    src: url(/assets/fonts/SpaceMono-Bold.ttf);
 }
-nav a{
+footer input{
+    font-family: 'work sans';
+    font-weight: 600;
+}
+footer ul a{
     font-family: 'work sans';
 }
 nav input[type="checkbox"]:checked ~ div ul{
