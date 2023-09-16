@@ -41,13 +41,13 @@
                 </a>
                 <input type="checkbox" name="chek" id="chek" class="hidden">
                 <div>
-                    <ul class="flex flex-col w-[320px] z-10 p-10 lg:p-0 top-0 duration-300 lg:w-auto absolute h-screen bg-[#2B2B2B] lg:h-auto right-full lg:static lg:flex-row items-center gap-10">
+                    <ul class="flex flex-col w-[320px] z-10 p-10 lg:p-0 top-0 duration-300 lg:w-auto absolute h-screen bg-white dark:bg-[#2B2B2B] lg:h-auto right-full lg:static lg:flex-row items-center gap-10">
                         <label for="chek" class="w-full ">
-                            <i class="ri-close-circle-line text-white block text-end text-xl lg:hidden"></i>
+                            <i class="ri-close-circle-line text-black dark:text-white block text-end text-xl lg:hidden"></i>
                         </label>
-                        <li><a href="#" class="text-white font-extrabold">Marketplace</a></li>
-                        <li><a href="#" class="text-white font-extrabold">Rankings</a></li>
-                        <li><a href="#" class="text-white font-extrabold whitespace-nowrap ">Connect a wallet</a></li>
+                        <li><a href="#" class="text-black dark:text-white font-extrabold">Marketplace</a></li>
+                        <li><a href="nft.html" class="text-black dark:text-white font-extrabold">Rankings</a></li>
+                        <li><a href="#" class="text-black dark:text-white font-extrabold whitespace-nowrap ">Connect a wallet</a></li>
                         <li><a href="/account.html" class="whitespace-nowrap font-extrabold rounded-[20px] bg-[#A259FF] text-white px-[30px] py-[10px] flex gap-3 items-center"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M10 3.125C7.58375 3.125 5.625 5.08375 5.625 7.5C5.625 9.91625 7.58375 11.875 10 11.875C12.4162 11.875 14.375 9.91625 14.375 7.5C14.375 5.08375 12.4162 3.125 10 3.125ZM4.375 7.5C4.375 4.3934 6.8934 1.875 10 1.875C13.1066 1.875 15.625 4.3934 15.625 7.5C15.625 10.6066 13.1066 13.125 10 13.125C6.8934 13.125 4.375 10.6066 4.375 7.5Z" fill="white"/>
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M10.0001 13.124C8.57374 13.124 7.17251 13.4995 5.93728 14.2128C4.70205 14.926 3.67634 15.9518 2.96327 17.1872C2.79071 17.4861 2.40848 17.5886 2.10953 17.416C1.81058 17.2435 1.70812 16.8612 1.88068 16.5623C2.70345 15.1369 3.88696 13.9532 5.31223 13.1303C6.7375 12.3073 8.3543 11.874 10.0001 11.874C11.6459 11.874 13.2627 12.3073 14.688 13.1303C16.1132 13.9532 17.2968 15.1369 18.1195 16.5623C18.2921 16.8612 18.1896 17.2435 17.8907 17.416C17.5917 17.5886 17.2095 17.4861 17.0369 17.1872C16.3239 15.9518 15.2982 14.926 14.0629 14.2128C12.8277 13.4995 11.4265 13.124 10.0001 13.124Z" fill="white"/>
@@ -55,7 +55,7 @@
                     </ul>            
                 </div>
                 <label for="chek" class="block lg:hidden">
-                    <i class="ri-menu-2-line  text-white text-2xl"></i>
+                    <i class="ri-menu-2-line  text-black dark:text-white text-2xl"></i>
                 </label>
             </div>
         </div>
@@ -635,10 +635,10 @@
 
         </section>
     </main>
-    <footer class="bg-[#3B3B3B] py-[40px] px-[30px] ">
+    <footer class="bg-stone-100 dark:bg-[#3B3B3B] py-[40px] sm:px-[30px] px-[20px]">
         <div class="container mx-auto">
             <div class="flex flex-col min-[970px]:flex-row  gap-[30px] min-[970px]:gap-0 justify-center items-start min-[970px]:items-center">
-                <div class=" flex flex-col pr-[64px]">
+                <div class=" flex flex-col sm:pr-[64px]">
                     <a href="/index.html" class="mb-[20px]">
                         <svg class="w-[182px] h-[24px] lg:w-[244px] lg:h-[32px]" viewBox="0 0 244 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M6 12.4502C6.55228 12.4502 7 12.8979 7 13.4502V26.0002H25V13.4502C25 12.8979 25.4477 12.4502 26 12.4502C26.5523 12.4502 27 12.8979 27 13.4502V26.0002C27 26.5306 26.7893 27.0393 26.4142 27.4144C26.0391 27.7895 25.5304 28.0002 25 28.0002H7C6.46957 28.0002 5.96086 27.7895 5.58579 27.4144C5.21071 27.0393 5 26.5306 5 26.0002V13.4502C5 12.8979 5.44772 12.4502 6 12.4502Z" fill="#A259FF"/>
@@ -702,24 +702,24 @@
                     </div>
                 </div>
                 <div class="flex flex-col items-start min-[970px]:ml-[31px]">
-                    <h2 class="text-xl font-bold text-white mb-[25px]">Explore</h2>
-                    <ul class="flex flex-col gap-5 text-white">
+                    <h2 class="text-xl font-bold text-black dark:text-white mb-[25px]">Explore</h2>
+                    <ul class="flex flex-col gap-5 text-black dark:text-white">
                         <li><a href="#">Marketplace</a></li>
                         <li><a href="#">Rankings</a></li>
                         <li><a href="#">Connect a wallet</a></li>
                     </ul>
                 </div>
-                <div class="flex flex-col min-[970px]:ml-[31px]">
-                    <h2 class="text-white text-xl font-bold mb-[25px]">Join our weekly digest</h2>
+                <div class="flex flex-col items-start min-[970px]:ml-[31px]">
+                    <h2 class="text-black dark:text-white text-xl font-bold mb-[25px]">Join our weekly digest</h2>
                     <h1 class="text-[#CCCCCC] w-[280px] mb-[20px]">Get exclusive promotions & updates straight to your inbox.</h1>
                     <form action="" class="flex flex-col sm:gap-0 gap-4 sm:flex-row sm:relative">
-                        <input type="email" name="email" id="email" class="py-4 pr-6 pl-5 rounded-[20px] outline-none" placeholder="Enter your email here">
-                        <input type="submit" value="Subscribe" class="px-[50px] py-[16px] rounded-[20px] bg-[#A259FF] -right-24   text-white sm:absolute">
+                        <input type="email" name="email" id="email" class=" py-4 pr-6 pl-5 rounded-[20px] outline-none" placeholder="Enter your email here">
+                        <input type="submit" value="Subscribe" class=" px-[50px] py-[16px] rounded-[20px] bg-[#A259FF] -right-24   text-white sm:absolute">
                     </form>
                 </div>
             </div>
             <div class="border-t border-[#858584] pt-5 mt-[30px]">
-                <a href="#" class="text-white tetx-xs">Ⓒ NFT Market. Use this template freely.</a>
+                <a href="#" class="text-black dark:text-white tetx-xs">Ⓒ NFT Market. Use this template freely.</a>
             </div>
         </div>
     </footer>

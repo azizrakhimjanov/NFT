@@ -13,7 +13,8 @@ tailwind.config = {
           // => @media (min-width: 450px) { ... }
         },
         fontFamily: {
-          body: ['work sans']
+          body: ['work sans'],
+          mono: ['space-mono'],
         }
       }
     }

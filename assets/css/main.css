@@ -1,8 +1,4 @@
-@font-face {
-    font-family: work sans;
-    src: url(/assets/fonts/WorkSans-Bold.ttf);
-    src: url(/assets/fonts/WorkSans-ExtraBold.ttf);
-}
+
 footer h2{
     font-family: space-mono;
 }
@@ -15,6 +11,6 @@ footer ul a{
 }
 nav input[type="checkbox"]:checked ~ div ul{
     right: 0;
-    color: #97979785;
+
 }
 
