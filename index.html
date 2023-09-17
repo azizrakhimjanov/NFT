@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home page</title>
+    <title>NFTs Marketplace</title>
     <link rel="stylesheet" href="/assets/css/fonts.css">
     <link rel="stylesheet" href="/assets/css/main.css">
     <script src="/assets/plogin/tailwind.js"></script>
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/assets/remix/fonts/remixicon.css">
     
 </head>
-<body class="bg-[#2B2B2B]">
+<body class="bg-white dark:bg-[#2B2B2B]">
     <nav>
         <div class="container mx-auto">
             <div class="flex justify-between items-center py-[20px]">
@@ -634,6 +634,56 @@
             
 
         </section>
+
+        <section class="container m-auto md:py-[80px] py-[20px] xl:px-[50px] px-[10px]">
+            <h1 class="text-black dark:text-white lg:text-[38px] text-[28px] font-semibold font-body">How it works</h1>
+            <p class="text-black dark:text-white lg:text-[22px] text-[16px] font-normal font-body">Find out how to get started</p>
+            
+            <div class="grid md:grid-cols-3 grid-cols-1 gap-[30px]  mt-[48px]">
+                <div class="flex items-center md:gap-[20px] gap-[5px] md:flex-col flex-row bg-stone-100 dark:bg-[#3B3B3B] rounded-[20px] md:px-[30px] px-[15px] pt-[10px] md:pb-[30px] pb-[15px]">
+                    <div class="lg:w-[250px] sm:w-[160px] h-full xs:w-[300px] w-[400px] "><img class="lg:w-full w-full object-contain  h-full" src="./assets/img/nft/Icon.png" alt="around"></div>
+                    <div class="">
+                        <p class="text-black dark:text-white lg:text-[22px] text-[16px] font-semibold font-body md:text-center">Setup Your wallet</p>
+                        <p class="text-black dark:text-white lg:text-[16px] text-[12px] font-normal font-body md:text-center mt-[10px]">Set up your wallet of choice. Connect it to the Animarket by clicking the wallet icon in the top right corner.</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center md:gap-[20px] gap-[5px] md:flex-col flex-row bg-stone-100 dark:bg-[#3B3B3B] rounded-[20px] md:px-[30px] px-[15px] pt-[10px] md:pb-[30px] pb-[15px]">
+                    <div class="lg:w-[250px] sm:w-[160px] h-full xs:w-[300px] w-[400px] "><img class="lg:w-full w-full object-contain  h-full" src="./assets/img/nft/Icon2.png" alt="around"></div>
+                    <div class="">
+                        <p class="text-black dark:text-white lg:text-[22px] text-[16px] font-semibold font-body md:text-center">Create Collection</p>
+                        <p class="text-black dark:text-white lg:text-[16px] text-[12px] font-normal font-body md:text-center mt-[10px]">Upload your work and setup your collection. Add a description, social links and floor price.</p>
+                    </div>
+                </div>
+
+                <div class="flex items-center md:gap-[20px] gap-[5px] md:flex-col flex-row bg-stone-100 dark:bg-[#3B3B3B] rounded-[20px] md:px-[30px] px-[15px] pt-[10px] md:pb-[30px] pb-[15px]">
+                    <div class="lg:w-[250px] sm:w-[160px] h-full xs:w-[300px] w-[400px] "><img class="lg:w-full w-full object-contain  h-full" src="./assets/img/nft/Icon3.png" alt="around"></div>
+                    <div class="">
+                        <p class="text-black dark:text-white lg:text-[22px] text-[16px] font-semibold font-body md:text-center">Start Earning</p>
+                        <p class="text-black dark:text-white lg:text-[16px] text-[12px] font-normal font-body md:text-center mt-[10px]">Choose between auctions and fixed-price listings. Start earning by selling your NFTs or trading others.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container m-auto md:py-[80px] py-[20px] xl:px-[50px] px-[10px]">
+            <div class="md:bg-stone-100 md:dark:bg-[#3B3B3B] dark:bg-[#2B2B2B] rounded-[20px] sm:p-[60px] grid md:grid-cols-2 grid-cols-1 md:gap-[80px] gap-[30px]">
+                <div class="w-full h-full">
+                    <img class="w-full h-full lg:block hidden" src="./assets/img/nft/Photo_cosmos.png" alt="">
+                    <img class="w-full h-full lg:hidden block" src="./assets/img/nft/Photo_cosmos2.png" alt="">
+                </div>
+                <div class="">
+                    <p class="text-black dark:text-white lg:text-[45px] text-[28px] font-semibold font-body">Join our weekly digest</p>
+                    <p class="text-black dark:text-white lg:text-[22px] text-[16px] font-normal font-body">Get exclusive promotions & updates straight to your inbox.</p>
+                    <form action="" class="flex flex-col lg:gap-0 gap-4 lg:flex-row mt-[40px] ">
+                        <input type="email" name="email" id="email" class=" sm:py-4 py-2 pr-6 pl-5 rounded-[20px] outline-none" placeholder="Enter your email here">
+                        <input type="submit" value=" Subscribe" class=" px-[50px] sm:py-[16px] py-2 rounded-[20px] bg-[#A259FF] text-white ">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
     </main>
     <footer class="bg-stone-100 dark:bg-[#3B3B3B] py-[40px] sm:px-[30px] px-[20px]">
         <div class="container mx-auto">
@@ -713,13 +763,8 @@
                     <h2 class="text-black dark:text-white text-xl font-bold mb-[25px]">Join our weekly digest</h2>
                     <h1 class="text-[#CCCCCC] w-[280px] mb-[20px]">Get exclusive promotions & updates straight to your inbox.</h1>
                     <form action="" class="flex flex-col sm:gap-0 gap-4 sm:flex-row sm:relative">
-<<<<<<< HEAD
-                        <input type="email" name="email" id="email" class="py-4 pr-6 pl-5 rounded-[20px] outline-none" placeholder="Enter your email here">
-                        <input type="submit" value="Subscribe" class="px-[50px] py-[16px] cursor-pointer rounded-[20px] bg-[#A259FF] -right-24   text-white sm:absolute">
-=======
                         <input type="email" name="email" id="email" class=" py-4 pr-6 pl-5 rounded-[20px] outline-none" placeholder="Enter your email here">
                         <input type="submit" value="Subscribe" class=" px-[50px] py-[16px] rounded-[20px] bg-[#A259FF] -right-24   text-white sm:absolute">
->>>>>>> 1f8739e2ca5be173898fc3b206fe2e54e721275d
                     </form>
                 </div>
             </div>
@@ -733,7 +778,11 @@
         var swiper = new Swiper(".mySwiper", {
           effect: "cube",
           grabCursor: true,
+<<<<<<< HEAD
           logo:true,
+=======
+          loop:true,
+>>>>>>> 081de5996681318ca1b1c5af9171f2fbb8b70f61
           cubeEffect: {
             shadow: true,
             slideShadows: true,
