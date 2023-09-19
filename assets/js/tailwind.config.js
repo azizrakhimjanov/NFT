@@ -1,4 +1,3 @@
-/** @type {import('tailwindcss').Config} */
 tailwind.config = {
     theme: {
       container: {
@@ -10,7 +9,6 @@ tailwind.config = {
       extend: {
         screens: {
           'xs':'475px',
-          // => @media (min-width: 450px) { ... }
         },
         fontFamily: {
           body: ['work sans'],
